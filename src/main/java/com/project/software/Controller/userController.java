@@ -12,4 +12,9 @@ public class userController {
     public String user(){
         return "Hello iam dulce";
     }
+
+    @GetMapping("lastName")
+    public String last(){
+        return "My lastName is Mendoza";
+    }
 }
